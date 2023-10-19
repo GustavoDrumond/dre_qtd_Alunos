@@ -451,7 +451,13 @@ PROCEDURE P_CRIA_GRADE_ALUNO (p_nr_ano in ca.dre_vl_apropriacao_direta.nr_ano%ty
                               p_nr_mes in ca.dre_vl_apropriacao_direta.nr_mes%type,
                               p_cd_estabelecimento in ca.dre_controle_execucao.cd_estabelecimento%type,
                               p_nr_registro in ca.dre_controle_execucao.nr_registro%type) IS
-
+--Ponto de alteração
+-- pre condição: criar tabela para registrar qtd de aluno
+--Incluir apuração de quantidade de alunos
+--registrar quantidade de aluno
+--verificar se existe qtd de aluno em tabela auxiliar
+--apurar grade de aluno com base na tbela auxiliar
+-- incluir trativa do chamado 2023080808000601 
     v_nr_ano_par                 NUMBER   (4)    := 0;
     v_nr_mes_par                 NUMBER   (2)    := 0;
     v_nr_ano                     VARCHAR2 (4)    := NULL;
