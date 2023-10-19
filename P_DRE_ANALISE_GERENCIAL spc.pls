@@ -4,7 +4,7 @@ create or replace PACKAGE       P_DRE_ANALISE_GERENCIAL AS
 -- Objetivo: 
 -- Parâmetros:
 -- aterações para calcular a qtd de alunos;  
---
+-- modificacao
 
 
   /* TODO enter package declarations (types, exceptions, methods etc) here */

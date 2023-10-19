@@ -1,5 +1,5 @@
 create or replace PACKAGE BODY      P_DRE_ANALISE_GERENCIAL AS
-
+--modificacao
 PROCEDURE P_LIMPA_DRE (p_nr_ano in ca.dre_vl_apropriacao_direta.nr_ano%type,
                        p_nr_mes in ca.dre_vl_apropriacao_direta.nr_mes%type,
                        p_cd_estabelecimento in ca.dre_controle_execucao.cd_estabelecimento%type,
