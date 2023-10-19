@@ -3,7 +3,8 @@ create or replace PACKAGE       P_DRE_ANALISE_GERENCIAL AS
 --criado por: HMIT       
 -- Objetivo: 
 -- Parâmetros:
--- aterações para calcular a qtd de alunos;
+-- aterações para calcular a qtd de alunos;  
+--
 
 
   /* TODO enter package declarations (types, exceptions, methods etc) here */
